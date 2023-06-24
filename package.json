@@ -1,0 +1,35 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "youtube clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chirag-Solanki6804/youtube-clone-react-app.git"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "chirag solanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chirag-Solanki6804/youtube-clone-react-app/issues"
+  },
+  "homepage": "https://github.com/Chirag-Solanki6804/youtube-clone-react-app#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "postcss": "^8.4.24",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1"
+  }
+}
