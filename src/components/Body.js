@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import ButtonList from "./ButtonList";
-import VideosContainer from "./VideosContainer";
+import { Outlet } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -9,7 +9,7 @@ const Body = () => {
       <Sidebar />
       <div className="flex flex-col">
         <ButtonList />
-        <VideosContainer />
+        <Outlet />
       </div>
     </div>
   );
